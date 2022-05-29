@@ -1,15 +1,15 @@
 const settings = {
-  "name": "7fridays",
+  "name": "project",
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
       "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development",
-    },
+      "description": "WordPress installation for Frontity development"
+    }
   },
   "packages": [
     {
-      "name": "@frontity/twentytwenty-theme",
+      "name": "@frontity/mars-theme",
       "state": {
         "theme": {
           "menu": [
@@ -45,27 +45,8 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://ynherb29922.000webhostapp.com",
-          "postTypes": [
-            {
-              type: "result",
-              endpoint: "result",
-              archive: '/archives/result',
-            },
-            {
-              type: "product",
-              endpoint: "product",
-              archive: '/product',
-            }
-          ],
-          "taxonomies": [
-            {
-              taxonomy: "category", // taxonomy slug
-              endpoint: "categories", // REST API endpoint
-              postTypeEndpoint: "result", // endpoint from which posts from this taxonomy are fetched
-            }
-          ]
-        },
+          "url": "https://test.frontity.org"
+        }
       }
     },
     "@frontity/tiny-router",
