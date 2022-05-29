@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "http://frontitytest.local",
+          "url": "https://ynherb29922.000webhostapp.com",
           "postTypes": [
             {
               type: "result",
